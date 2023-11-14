@@ -1,5 +1,7 @@
 # volcano activity
 
+The earth is in perpetual seismic and volcanic activity. It is interesting to note the webcams near the volcanoes which can sometimes surprise
+
 ## List of volcano webcams
 
 ***Legend**: Name(french WP link) - Country (Region) - link(s)*
