@@ -2,6 +2,8 @@
 
 The earth is in perpetual seismic and volcanic activity ([x](https://twitter.com/search?q=volcano&src=typed_query)). It is interesting to note the webcams near the volcanoes which can sometimes surprise
 
+💡 idea of this project is to (1) list a minimal amount of volcano live webcams links (2) publish a web view of that dictionary relatively easy to maintain via github (cf. issues view)
+
 ## List of volcano webcams
 
 ***Legend**: Name(french WP link) |ASC order| - Country (Region) - 📊 status if any, 📰 last news, and ▶️ live link(s)*
