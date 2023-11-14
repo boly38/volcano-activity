@@ -1,6 +1,6 @@
 # volcano activity
 
-The earth is in perpetual seismic and volcanic activity. It is interesting to note the webcams near the volcanoes which can sometimes surprise
+The earth is in perpetual seismic and volcanic activity ([x](https://twitter.com/search?q=volcano&src=typed_query)). It is interesting to note the webcams near the volcanoes which can sometimes surprise
 
 ## List of volcano webcams
 
