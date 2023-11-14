@@ -2,6 +2,13 @@
 
 ## List of volcano webcams
 
-* **Legend**: Name - Country - link
-* Etna - Italy (Sicile) - https://www.youtube.com/watch?v=cIMW_h-_X2k
-* Fagradalsfjall  - Iceland - https://livefromiceland.is/webcams/fagradalsfjall/
+* **Legend**: Name(french WP link) - Country (Region) - link(s)
+* [Etna](https://fr.wikipedia.org/wiki/Etna) - Italy (Sicile) - [YT Live from Vincenzo Modica](https://www.youtube.com/watch?v=cIMW_h-_X2k)
+* [Fagradalsfjall](https://fr.wikipedia.org/wiki/Fagradalsfjall) - Iceland (Suðurnes) - [livefromiceland.is](https://livefromiceland.is/webcams/fagradalsfjall/)
+* [Piton de la Fournaise](https://fr.wikipedia.org/wiki/Piton_de_la_Fournaise) - France (La Réunion) - [pv.viewsurf.com](https://pv.viewsurf.com/1984/Piton-de-la-fournaise-video?i=NzI4NDp1bmRlZmluZWQ) ([src](https://www.reunion.fr/organisez/webcams/webcam-volcan-piton-de-la-fournaise/)) - [fournaise.info](https://fournaise.info/webcams-piton-de-la-fournaise-reunion/)
+
+
+## You can contribute !
+
+- Edit to add your own (via Pull Request)
+- or suggest it by adding [an issue](https://github.com/boly38/volcano-activity/issues) (fr ou en lang)
