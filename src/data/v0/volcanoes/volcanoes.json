@@ -1,0 +1,44 @@
+[
+  {
+    "id": "etna",
+    "name": "Etna",
+    "country": "Italy",
+    "region": "Sicile"
+  },
+  {
+    "id": "fagradalsfjall",
+    "name": "Fagradalsfjall",
+    "country": "Iceland",
+    "region": "Suðurnes"
+  },
+  {
+    "id": "kilauea",
+    "name": "Kīlauea",
+    "country": "USA",
+    "region": "Hawaï Island"
+  },
+  {
+    "id": "merapi",
+    "name": "Mérapi",
+    "country": "Indonésie",
+    "region": "Yogyakarta"
+  },
+  {
+    "id": "poas",
+    "name": "Poás",
+    "country": "Costa Rica",
+    "region": "Alajuela"
+  },
+  {
+    "id": "piton",
+    "name": "Piton de la Fournaise",
+    "country": "France",
+    "region": "La Réunion"
+  },
+  {
+    "id": "popocatepetl",
+    "name": "Popocatépetl",
+    "country": "Mexico",
+    "region": "Puebla"
+  }
+]

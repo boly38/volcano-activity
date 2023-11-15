@@ -1,0 +1,15 @@
+[
+  {
+    "volcano_id": "kilauea",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=IPniOEVuZnQ",
+    "name": "Kīlauea Volcano, Hawaii (Halemaʻumaʻu crater)",
+    "location": "Halemaʻumaʻu crater, Kīlauea, Hawaï Island, USA",
+    "owner": "USGS",
+    "ownerURl": "https://www.youtube.com/@usgs",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  }
+]
