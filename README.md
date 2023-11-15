@@ -1,8 +1,16 @@
-# volcano activity
+# volcano activity 🌋
 
-The earth is in perpetual seismic and volcanic activity ([x](https://twitter.com/search?q=volcano&src=typed_query)). It is interesting to note the webcams near the volcanoes which can sometimes surprise
+The earth is in perpetual seismic and volcanic activity ([x](https://twitter.com/search?q=volcano&src=typed_query)). 
 
-💡 idea of this project is to (1) list a minimal amount of volcano live webcams links (2) publish a web view of that dictionary relatively easy to maintain via github (cf. issues view)
+It is interesting to maintain the list of active webcams 📹 near the volcanoes 🗻 which can sometimes surprise 🔥.
+
+As many website are not up-to-date 🕸 or ask to pay 💸 for this kind of service, 
+we may try to do that via collaborative 🤝👥 open github project 🏗️.
+
+💡 main ideas of this project are 
+- (1) 📝 list (in this readme) a minimal amount of volcano live webcams links 
+- (2) publish an [API ⚙️](./API.md) + 🌐 Web view of that dictionary 📚 relatively easy to maintain ✍ via github (cf. issues view)
+- (3) think of another way to maintain/update/moderate website data 🛢 from users 👨‍👩‍👦‍👦 (if you have some tips about shared data-model solution)
 
 ## List of volcano webcams
 
@@ -11,32 +19,18 @@ The earth is in perpetual seismic and volcanic activity ([x](https://twitter.com
 * [Fagradalsfjall](https://fr.wikipedia.org/wiki/Fagradalsfjall) - Iceland (Suðurnes) - [📊 last earthquakes map](https://vafri.is/quake/)([src](https://social.tulsa.ok.us/@blogoklahoma/111403666010144705)) [▶️ livefromiceland.is](https://livefromiceland.is/webcams/fagradalsfjall/) [▶️ YT afar TV - Þorbjörn](https://www.youtube.com/watch?v=l-5QeLIn1FA) [▶️ YT mbl.is - Litli-Hrútur](https://www.youtube.com/watch?v=LykVVU3C6D0)([src](https://dice.camp/@brunobord/110814440302065647)) [▶️ YT - livefromiceland.is](https://livefromiceland.is/webcams/litlihrutur) ([src](https://livefromiceland.is/webcams/))
 * [Kīlauea](https://fr.wikipedia.org/wiki/K%C4%ABlauea) - USA (Hawaï Island) - [YT - Kīlauea Volcano, Hawaii (Halemaʻumaʻu crater)](https://www.youtube.com/watch?v=IPniOEVuZnQ)
 * [Mérapi](https://fr.wikipedia.org/wiki/Merapi) - Indonésie (Yogyakarta) -[▶️ YT Janur Merapi - Live Merapi - Indonesia's Mount Merapi](https://www.youtube.com/watch?v=O6gK-l2BjZU)
-* [Poás](https://fr.wikipedia.org/wiki/Po%C3%A1s) - Costa Rica (Alajuela) - [▶️ ovsicori.una.ac.cr - POAS CRATER](http://www.ovsicori.una.ac.cr/index.php/camaras/v-poas/22-camaras-volcanes/102-volcan-poas-crater)([src](http://www.ovsicori.una.ac.cr/index.php/camaras))
 * [Piton de la Fournaise](https://fr.wikipedia.org/wiki/Piton_de_la_Fournaise) - France (La Réunion) - [▶️ pv.viewsurf.com](https://pv.viewsurf.com/1984/Piton-de-la-fournaise-video?i=NzI4NDp1bmRlZmluZWQ) ([src](https://www.reunion.fr/organisez/webcams/webcam-volcan-piton-de-la-fournaise/)) - [fournaise.info](https://fournaise.info/webcams-piton-de-la-fournaise-reunion/)
+* [Poás](https://fr.wikipedia.org/wiki/Po%C3%A1s) - Costa Rica (Alajuela) - [▶️ ovsicori.una.ac.cr - POAS CRATER](http://www.ovsicori.una.ac.cr/index.php/camaras/v-poas/22-camaras-volcanes/102-volcan-poas-crater)([src](http://www.ovsicori.una.ac.cr/index.php/camaras))
 * [Popocatépetl](https://fr.wikipedia.org/wiki/Popocatepetl) - Mexico (Puebla) - [▶️ YT LIVE CAM POPOCATEPETL - Transmisión Volcán PopocatépetlNoviembre 2023](https://www.youtube.com/watch?v=3QnlLl8P4uU) [▶️ YT WebcamsDeMexico Live - Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México](https://www.youtube.com/watch?v=PZQTjiNhnfc) [▶️ YT webcamsdemexico - Volcán Popocatépetl En Vivo | Vista San Nicolás de los Ranchos, Puebla](https://www.youtube.com/watch?v=x7_58IR4gpk) [▶️ YT webcamsdemexico - Volcán Popocatépetl En Vivo | Vista Tlamacas, Estado de México](https://www.youtube.com/watch?v=K1rnX5hP-5U)
 
-**Legend**: 
-* ▶️ LIVE diffusion or webcam : expect a live direct view on the volcano (else switch to offline)
-* ⚫ offline channel
-* 📊 LIVE status information
-* 📰 recent or latest news
++[TODO](src/data/v0/lives/TODO.md)
 
-### live/active webcams not found 
-* [Eyjafjallajökull](https://fr.wikipedia.org/wiki/Eyjafjallaj%C3%B6kull) - Iceland (Suðurland) - *LIVE TO FIND*
-* [Krakatoa](https://fr.wikipedia.org/wiki/Krakatoa) - Indonésie (Grandes îles de la Sonde) - *LIVE TO FIND* ([⚫ YT IndonesiaVolcanoMonitoring](https://www.youtube.com/c/IndonesiaVolcanoMonitoring/live) - [⚫ YT IndonesiaVolcanoMonitorin 2022/04](https://www.youtube.com/watch?v=BO7OGzEIoFU)) - [YT Newsflare - historical 2018](https://www.youtube.com/watch?v=NGcbNn4Vk1w)
-* [Mayon](https://fr.wikipedia.org/wiki/Mayon) - Philippines (Bicol) - [📊 **erupting**](https://www.volcanodiscovery.com/mayon.html), *LIVE TO FIND* ([⚫ webcamgalore.com - Philippine Institute of Volcanology and Seismology](https://www.webcamgalore.com/webcam/Philippines/Mayon/30068.html) - reported 2023Nov14)
-* [Mount St. Helens](https://fr.wikipedia.org/wiki/Mont_Saint_Helens) - USA (Washington state) - ([⚫ Volcano Cam at Johnston Ridge Observatory - may 2023](https://www.usgs.gov/media/webcams/johnston-ridge-observatory-mount-st-helens))
-* [Nyiragongo](https://fr.wikipedia.org/wiki/Nyiragongo) - Rep. Dem. Congo (Nord-Kivu) - [Observatoire du Volcan de Goma (GVO)](https://ovg-rdc.cd/nyiragongo/)
-
-### todo
-* Sakurajima - Japan
-* ? - Japan - [📰 undersee volcano eruption new island](https://abc7.com/undersea-volcano-eruption-new-island-japan/14039281/)
-
-## Resources
-* [windy.com - Worldwide ☁ Weather & ▶️ Webcams](https://www.windy.com/fr/-Webcams/Italie/Sicile/Mascali/webcams/1669473572?37.757,14.759,10)
-* [geocam.ru - Volcano webcams](https://www.geocam.ru/en/in/all/volcanoes/)
-
-## You can contribute !
+## You can contribute 🤝🏽 !
 
 - Edit to add your own (via Pull Request)
 - or suggest it by adding [an issue](https://github.com/boly38/volcano-activity/issues) (fr ou en lang)
+
+
+## With help of 🤝👥
+
+- ![cyclic logo](https://www.cyclic.sh/_nuxt/image/31b4be.webp) - [cyclic.sh](cyclic.sh) a Platform as a Service - [Generous free tier](https://www.cyclic.sh/pricing) for 1 app

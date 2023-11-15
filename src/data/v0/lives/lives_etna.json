@@ -1,0 +1,41 @@
+[
+  {
+    "volcano_id": "etna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=9x8gxQcw5ps",
+    "name": "Mt Etna! fullscreen",
+    "location": "Mt Etna",
+    "owner": "afar TV",
+    "ownerURl": "https://www.youtube.com/@afartv",
+    "state": "active",
+    "lastState": "2023-11-14",
+    "lastActive": "",
+    "lastUpdate": "2023-11-14"
+  },
+  {
+    "volcano_id": "etna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=PiGBKs65A5g",
+    "name": "Mt Etna! composite",
+    "location": "Mt Etna",
+    "owner": "afar TV",
+    "ownerURl": "https://www.youtube.com/@afartv",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "etna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=cIMW_h-_X2k",
+    "name": "Etna Volcano - Live from Sicily",
+    "location": "Mt Etna",
+    "owner": "Vincenzo Modica",
+    "ownerURl": "https://www.youtube.com/@vincenzo-modica",
+    "state": "offline",
+    "lastState": "2023-11-16",
+    "lastActive": "2023-11-14",
+    "lastUpdate": "2023-11-16"
+  }
+]

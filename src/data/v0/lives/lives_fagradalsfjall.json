@@ -1,0 +1,67 @@
+[
+  {
+    "volcano_id": "fagradalsfjall",
+    "type": "earthquakes",
+    "url": "https://vafri.is/quake/",
+    "name": "Iceland last earthquakes - Skjálfti 2.0",
+    "location": "Iceland",
+    "owner": "Hreinn Beck",
+    "ownerURl": "https://www.buymeacoffee.com/hreinnbeck",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "fagradalsfjall",
+    "type": "webcam",
+    "url": "https://livefromiceland.is/webcams/fagradalsfjall/",
+    "name": "livefromiceland.is",
+    "location": "Iceland, fagradalsfjall",
+    "owner": "livefromiceland.is",
+    "ownerURl": "https://livefromiceland.is/about/",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "fagradalsfjall",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=l-5QeLIn1FA",
+    "name": "LIVE: 2023 Iceland Earthquake and Volcano Monitor",
+    "location": "Þorbjörn, Iceland",
+    "owner": "afar TV",
+    "ownerURl": "https://www.youtube.com/@afartv",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "fagradalsfjall",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=LykVVU3C6D0",
+    "name": "Litli-Hrútur eruption LIVE! (A)",
+    "location": "Litli-Hrútur, Iceland",
+    "owner": "mbl.is",
+    "ownerURl": "https://www.youtube.com/@mblis-qm7ot",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "fagradalsfjall",
+    "type": "youtube",
+    "url": "https://livefromiceland.is/webcams/litlihrutur",
+    "name": "Litli-Hrútur",
+    "location": "Litli-Hrútur, Iceland",
+    "owner": "livefromiceland.is",
+    "ownerURl": "https://livefromiceland.is/about/",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  }
+]

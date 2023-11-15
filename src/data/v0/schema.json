@@ -1,0 +1,21 @@
+{
+  "volcano": {
+    "id": "*REQUIRED* unique id of the volcano",
+    "name": "*REQUIRED* name",
+    "country": "*REQUIRED* country",
+    "region": "region|state|island"
+  },
+  "live": {
+    "volcano_id": "*REQUIRED* unique id of the volcano",
+    "type": "*REQUIRED* youtube|webcam|earthquakes|monitoring|news|other",
+    "url": "*REQUIRED* url of the live",
+    "name": "*REQUIRED* name of the live",
+    "location": "location (city, or region, or island) of the live",
+    "owner": "owner name of the live",
+    "ownerURl": "owner url of the live",
+    "state": "active or offline",
+    "lastState": "date of the state update, format 'YYYY-MM-DD', example '2023-11-15'",
+    "lastActive": "(offline state only) date of the last active state, format 'YYYY-MM-DD'",
+    "lastUpdate": "date of the last json update, format 'YYYY-MM-DD'"
+  }
+}

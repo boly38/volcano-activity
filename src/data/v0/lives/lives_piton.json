@@ -1,0 +1,28 @@
+[
+  {
+    "volcano_id": "piton",
+    "type": "webcam",
+    "url": "https://pv.viewsurf.com/1984/Piton-de-la-fournaise-video?i=NzI4NDp1bmRlZmluZWQ",
+    "name": "Piton de la fournaise - Viewsurf - live",
+    "location": "Piton de la fournaise, La Réunion, France",
+    "owner": "viewsurf.com",
+    "ownerURl": "https://viewsurf.com/mentions-legales",
+    "state": "unknown",
+    "lastState": "2023-11-16",
+    "lastActive": "2023-11-14",
+    "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "piton",
+    "type": "webcam",
+    "url": "https://fournaise.info/webcams-piton-de-la-fournaise-reunion/",
+    "name": "Piton de la fournaise - fournaise.info - multiple webcams",
+    "location": "Piton de la fournaise, La Réunion, France",
+    "owner": "https://fournaise.info",
+    "ownerURl": "https://fournaise.info/auteurs-fournaise-info/",
+    "state": "active",
+    "lastState": "2023-11-16",
+    "lastActive": "",
+    "lastUpdate": "2023-11-16"
+  }
+]
