@@ -1,6 +1,13 @@
 import {readdirSync, readFileSync} from 'fs';
 import {join} from 'path';
 
+function isSet(variable) {
+    return (variable !== undefined && variable !== null);
+}
+
+function isNotEmpty(variable) {
+    return isSet(variable) && variable !== '';
+}
 function loadJsonFile(filePath) {
     try {
         // Read the JSON file synchronously
@@ -53,4 +60,4 @@ function readJsonFilesFromDirectory(directoryPath) {
 }
 
 // Export the function to be used in other modules
-export {loadJsonFile, readJsonFilesFromDirectory};
+export {isSet, isNotEmpty, loadJsonFile, readJsonFilesFromDirectory};
