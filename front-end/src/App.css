@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Celtica-Book';
+    src: local('Celtica-Book'), url("assets/fonts/Celtica-Book.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boston';
+    src: local('Boston'), url("assets/fonts/boston.ttf") format('truetype');
+    font-display: swap;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#app-main-content {
+    height: 95vh;
+}
+
+.histoLinks {
+    font-family: 'Celtica-Book', cursive;
+    float: left;
+    margin-left: 70px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgba(255, 160, 22, .2);
+}
+
+.histoLink {
+    font-family: 'Celtica-Book', cursive;
+    font-size: 14px;
+}
+
+.volcanoSubTitle {
+    font-family: 'Celtica-Book', cursive;
+    font-size: 32px;
+    color: #d58e07;
+    cursor: default;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.volcanoTitle {
+    font-family: 'Celtica-Book', cursive;
+    font-size: 32px;
+    color: gold;
+    cursor: default;
+}
+
+.volcanoAbout {
+    font-family: 'Boston', cursive;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.listCount {
+    font-family: 'Boston', cursive;
+    font-size: 12px;
+}
+
+.volcanicWrapper {
+    display: block;
+    width: 530px;
+    margin: auto;
+}
+
+.volcanicText {
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+.largeScreen {
+    display: none;
+}
+
+.smallScreen {
+    display: inline;
+}
+
+@media only screen and (min-width: 1100px) {
+    /* only large screen */
+    .smallScreen {
+        display: none;
+    }
+
+    .largeScreen {
+        display: inline;
+    }
+}
+
+.volcanoesList {
+    padding: 40px;
+}
+
+.homeEntry {
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+    opacity: 0.7;
+    border: 1px solid grey;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 15px 50px 30px;
+}
+
+.homeEntry:hover {
+    background-color: #d08503;
+    cursor: pointer;
+}
+
+
+.livesList {
+    padding: 40px;
+}
+
+.livesEntry {
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    opacity: 0.6;
+    border: 1px solid white;
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 15px 50px 30px;
+}
+
+.livesEntry a {
+    color: navajowhite;
+}
+
+.livesEntry:hover {
+    background-color: #d08503;
+    cursor: pointer;
+}
+
+.liveLocation {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.aboutApp {
+    font-size: 0.6em;
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: right;
+}

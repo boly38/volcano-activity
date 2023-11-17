@@ -19,14 +19,14 @@ This page describe ReST API of the [volcano-activity](./README.md) project.
 Example:
 ````json
 {
-  application: {
-    version: "0.0.1",
-    startDate: "2023-11-16T19:34:51.811Z"
+  "application": {
+    "version": "0.0.1",
+    "startDate": "2023-11-16T19:34:51.811Z"
   },
-  api: {
-    version: "v0",
-    volcanoesCount: 7,
-    livesCount: 8
+  "api": {
+    "version": "v0",
+    "volcanoesCount": 7,
+    "livesCount": 8
   }
 }
 ````
@@ -41,25 +41,25 @@ Example:
 ````json
 [
   {
-    id: "etna",
-    name: "Etna",
-    country: "Italy",
-    region: "Sicile",
-    file: "volcanoes.json",
-    lives: [
+    "id": "etna",
+    "name": "Etna",
+    "country": "Italy",
+    "region": "Sicile",
+    "file": "volcanoes.json",
+    "lives": [
       {
-        volcano_id: "etna",
-        type: "youtube",
-        url: "https://www.youtube.com/watch?v=9x8gxQcw5ps",
-        name: "Mt Etna! fullscreen",
-        location: "Mt Etna",
-        owner: "afar TV",
-        ownerURl: "https://www.youtube.com/@afartv",
-        state: "active",
-        lastState: "2023-11-14",
-        lastActive: "",
-        lastUpdate: "2023-11-14",
-        file: "lives_etna.json"
+        "volcano_id": "etna",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9x8gxQcw5ps",
+        "name": "Mt Etna! fullscreen",
+        "location": "Mt Etna",
+        "owner": "afar TV",
+        "ownerURl": "https://www.youtube.com/@afartv",
+        "state": "active",
+        "lastState": "2023-11-14",
+        "lastActive": "",
+        "lastUpdate": "2023-11-14",
+        "file": "lives_etna.json"
       }
     ]
   }
@@ -75,18 +75,18 @@ Example:
 ````json
 [
   {
-    id: "etna",
-    name: "Etna",
-    country: "Italy",
-    region: "Sicile",
-    file: "volcanoes.json"
+    "id": "etna",
+    "name": "Etna",
+    "country": "Italy",
+    "region": "Sicile",
+    "file": "volcanoes.json"
   },
   {
-    id: "fagradalsfjall",
-    name: "Fagradalsfjall",
-    country: "Iceland",
-    region: "Suðurnes",
-    file: "volcanoes.json"
+    "id": "fagradalsfjall",
+    "name": "Fagradalsfjall",
+    "country": "Iceland",
+    "region": "Suðurnes",
+    "file": "volcanoes.json"
   }
 ]
 ````

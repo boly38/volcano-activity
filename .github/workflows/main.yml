@@ -1,0 +1,91 @@
+# volcano-activity continuous integration
+#
+# requirements
+# repository secrets: https://github.com/boly38/volcano-activity/settings/secrets/actions
+# - VOLCANO_GITHUB_TOKEN : write access for this repository
+
+name: VOLCANO_CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the prod branch
+  push:
+    branches:
+     - prod
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: |
+          package-lock.json
+          frontend/package-lock.json
+
+    - name: Install dependencies
+      # npx force-resolutions : in case of Permission denied: run it locally to fix package-lock.json
+      run: |
+        echo "install"
+        npm install
+        echo "show outdated (if any)"
+        npm outdated --depth=3 || echo "you must think about update your dependencies :)"
+
+    - name: Build front-end
+      env:
+        # prevent to: Treating warnings as errors because process.env.CI = true.
+        CI: false
+      run: ./scripts/deliver.sh
+
+# TODO
+#    - name: Run tests
+#      run: npm run ci-test
+#
+#    - name: Report coverage
+#      continue-on-error: true
+#      uses: andybelltree/lcov-reporter-action@v1.5.0
+#      with:
+#        github-token: ${{ secrets.GITHUB_TOKEN }}
+#        lcov-file: ./coverage/lcov.info
+#        filter-changed-files: true
+#
+#    - name: Npm audit
+#      uses: oke-py/npm-audit-action@v2
+#      continue-on-error: false
+#      with:
+#        audit_level: moderate
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+#        issue_assignees: boly38
+#        issue_labels: cybersecurity,bot-created
+#        dedupe_issues: true
+#        production_flag: true
+
+    - name: Git deploy to Cyclic
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/prod'
+      with:
+        github_token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
+        publish_branch: cyclic
+        publish_dir: ./dist
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: ${{ github.event.head_commit.message }}
+        force_orphan: true
