@@ -1,3 +1,5 @@
-import {serve} from './service/server.js';
+import 'dotenv/config';
+import Server from './service/server.js';
 
-serve();
+const server = new Server();
+server.listen();
