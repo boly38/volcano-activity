@@ -22,6 +22,7 @@ we may try to do that via collaborative 🤝👥 open github project 🏗️.
 * [Piton de la Fournaise](https://fr.wikipedia.org/wiki/Piton_de_la_Fournaise) - France (La Réunion) - [▶️ pv.viewsurf.com](https://pv.viewsurf.com/1984/Piton-de-la-fournaise-video?i=NzI4NDp1bmRlZmluZWQ) ([src](https://www.reunion.fr/organisez/webcams/webcam-volcan-piton-de-la-fournaise/)) - [fournaise.info](https://fournaise.info/webcams-piton-de-la-fournaise-reunion/)
 * [Poás](https://fr.wikipedia.org/wiki/Po%C3%A1s) - Costa Rica (Alajuela) - [▶️ ovsicori.una.ac.cr - POAS CRATER](http://www.ovsicori.una.ac.cr/index.php/camaras/v-poas/22-camaras-volcanes/102-volcan-poas-crater)([src](http://www.ovsicori.una.ac.cr/index.php/camaras))
 * [Popocatépetl](https://fr.wikipedia.org/wiki/Popocatepetl) - Mexico (Puebla) - [▶️ YT LIVE CAM POPOCATEPETL - Transmisión Volcán PopocatépetlNoviembre 2023](https://www.youtube.com/watch?v=3QnlLl8P4uU) [▶️ YT WebcamsDeMexico Live - Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México](https://www.youtube.com/watch?v=PZQTjiNhnfc) [▶️ YT webcamsdemexico - Volcán Popocatépetl En Vivo | Vista San Nicolás de los Ranchos, Puebla](https://www.youtube.com/watch?v=x7_58IR4gpk) [▶️ YT webcamsdemexico - Volcán Popocatépetl En Vivo | Vista Tlamacas, Estado de México](https://www.youtube.com/watch?v=K1rnX5hP-5U)
+* [Semeru](https://fr.wikipedia.org/wiki/Semeru) - Indonésie (Java oriental) - [▶️ afar TV - LIVE in 4K: Erupting Semeru Volcano in Java, Indonesia](https://www.youtube.com/watch?v=J5NTD001xUE)
 
 +[TODO](src/data/v0/lives/TODO.md)
 
@@ -29,8 +30,9 @@ we may try to do that via collaborative 🤝👥 open github project 🏗️.
 
 - Edit to add your own (via Pull Request)
 - or suggest it by adding [an issue](https://github.com/boly38/volcano-activity/issues) (fr ou en lang)
-
+- DEV can rely on [OPS guide](./OPS.md) too.
 
 ## With help of 🤝👥
 
 - ![cyclic logo](https://www.cyclic.sh/_nuxt/image/31b4be.webp) - [cyclic.sh](cyclic.sh) a Platform as a Service - [Generous free tier](https://www.cyclic.sh/pricing) for 1 app
+- and more... , cf [CREDITS](./CREDITS.md)

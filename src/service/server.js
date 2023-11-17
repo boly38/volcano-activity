@@ -15,6 +15,7 @@ export default class Server {
         this.app = express()
         this.log = (new Logger()).getLogger();
         this.appMiddlewareAppendResponseHeader();
+        this.appMiddlewareFrontEnd();
         this.appApi();
     }
 
@@ -40,13 +41,17 @@ export default class Server {
         this.about = {application, api};
     }
 
-    appMiddlewareAppendResponseHeader(app) {
+    appMiddlewareAppendResponseHeader() {
         // middleware with no mount path: gets executed for every request to the app
         this.app.use(function (req, res, next) {
             res.setHeader('charset', 'utf-8');
             res.setHeader('X-Powered-By', X_POWERED_BY);
             next();
         });
+    }
+
+    appMiddlewareFrontEnd() {// Pick up React index.html file
+        this.app.use(express.static("ui"));
     }
 
     appApi(app, data) {
@@ -64,7 +69,7 @@ export default class Server {
     }
 
     listen() {
-        let port = process.env.PORT || 3000;
+        let port = process.env.PORT || 4000;
         this.app.listen(port)
         this.log.info(`🔥 version ${this.about?.application?.version} - api ${JSON.stringify(this.about?.api)}`, {port});
     }

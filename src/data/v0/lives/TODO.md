@@ -20,6 +20,6 @@
 * ? - Japan - [📰 undersee volcano eruption new island](https://abc7.com/undersea-volcano-eruption-new-island-japan/14039281/)
 
 ### Resources
-* [windy.com - Worldwide ☁ Weather & ▶️ Webcams](https://www.windy.com/fr/-Webcams/Italie/Sicile/Mascali/webcams/1669473572?37.757,14.759,10)
+* [windy.com - Worldwide ☁ Weather & ▶️ Webcams](https://www.windy.com/fr/-Webcams/Italie/Sicile/Mascali/webcams/1669473572?37.757,14.759,10) [api](https://api.windy.com/webcams)
 * [geocam.ru - Volcano webcams](https://www.geocam.ru/en/in/all/volcanoes/)
 * [viewsurf.com - Webcam indexes - France,Suisse,Maroc](https://viewsurf.com)
