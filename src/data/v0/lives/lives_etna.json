@@ -37,5 +37,18 @@
     "lastState": "2023-11-16",
     "lastActive": "2023-11-14",
     "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "etna",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=0ODWl-TxPhA",
+    "name": "Webcam Live Etna - Panorama da Agira (EN)",
+    "location": "Agira a circa, in provincia di Enna, in Sicilia",
+    "owner": "Digital Landscapes",
+    "ownerURl": "https://www.youtube.com/@PaesaggiDigitali",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
   }
 ]

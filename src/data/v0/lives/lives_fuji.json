@@ -1,0 +1,93 @@
+[
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Sv9hcJ3k5h4",
+    "name": "【4K】富士山ライブカメラ / 4K Live Camera Mt.FUJI　～河口湖～富士山パノラマロープウェイ",
+    "location": "Mt.FUJI",
+    "owner": "フジヤマNAVI",
+    "ownerURl": "https://www.youtube.com/@fujiyamanavi",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=bdUbACCWmoY",
+    "name": "【LIVE】河口湖からの「富士山ライブカメラ」　\"mount fuji live camera\" from Lake Kawaguchiko",
+    "location": "Mt.FUJI from Lake Kawaguchiko",
+    "owner": "【KTV】ケーブルテレビ河口湖",
+    "ownerURl": "https://www.youtube.com/@KawaguchikoTV",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=kYK9J6KNz0M",
+    "name": "富士山ライブカメラ/河口湖駅前 Live camera of Mt,Fuji",
+    "location": "Mt.FUJI Station Kawaguchiko",
+    "owner": "fuji-net",
+    "ownerURl": "https://www.youtube.com/@fujinetkawaguchiko",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ui0ThbK0Jsk",
+    "name": "【LIVE】精進湖からの「富士山ライブカメラ」　\"mount fuji live camera\" from Lake Shojiko",
+    "location": "Mt.FUJI from Lake Shojiko",
+    "owner": "【KTV】ケーブルテレビ河口湖",
+    "ownerURl": "https://www.youtube.com/@KawaguchikoTV",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Gn2CJjzY068",
+    "name": "ホテルマウント富士ライブカメラ/Live Camera Hotel Mt.fuji",
+    "location": "Mt.FUJI Hotel",
+    "owner": "フジヤマNAVI",
+    "ownerURl": "https://www.youtube.com/@fujiyamanavi",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=OrGQEkkEkx4",
+    "name": "静岡市さった峠　広重の富士山 / Mt. Fuji (World Heritage Site): Live Streaming in Shizuoka City",
+    "location": "Mt.FUJI Shizuoka City",
+    "owner": "静岡市さった峠 ライブカメラ",
+    "ownerURl": "https://www.youtube.com/@user-wn8rm5iq7e",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  },
+  {
+    "volcano_id": "fuji",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=uqB3pvAqGIw",
+    "name": "【LIVE】富士山・日本平ライブカメラ Mt.Fuji, JAPAN | SBS NEWS6",
+    "location": "Mont Fuji/Nihondaira",
+    "owner": "SBSnews6",
+    "ownerURl": "https://www.youtube.com/@SBSnews6",
+    "state": "active",
+    "lastState": "2023-11-27",
+    "lastActive": "",
+    "lastUpdate": "2023-11-27"
+  }
+]
