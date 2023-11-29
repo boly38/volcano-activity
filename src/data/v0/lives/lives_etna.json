@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa110",
     "volcano_id": "etna",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=9x8gxQcw5ps",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-14"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa111",
     "volcano_id": "etna",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=PiGBKs65A5g",
@@ -26,6 +28,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa112",
     "volcano_id": "etna",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=cIMW_h-_X2k",
@@ -39,6 +42,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa113",
     "volcano_id": "etna",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=0ODWl-TxPhA",

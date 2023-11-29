@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa180",
     "volcano_id": "popocatepetl",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=3QnlLl8P4uU",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa181",
     "volcano_id": "popocatepetl",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=PZQTjiNhnfc",
@@ -20,12 +22,13 @@
     "location": "Popocatépetl, Vista Altzomoni, Estado de México",
     "owner": "webcamsdemexico",
     "ownerURl": "https://www.youtube.com/@webcamsdemexico_live",
-    "state": "active",
-    "lastState": "2023-11-16",
+    "state": "offline",
+    "lastState": "2023-12-08",
     "lastActive": "2023-11-16",
-    "lastUpdate": "2023-11-16"
+    "lastUpdate": "2023-12-08"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa182",
     "volcano_id": "popocatepetl",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=x7_58IR4gpk",
@@ -33,12 +36,13 @@
     "location": "Popocatépetl, Vista San Nicolás de los Ranchos, Puebla, Mexico",
     "owner": "webcamsdemexico",
     "ownerURl": "https://www.youtube.com/@webcamsdemexico_live",
-    "state": "active",
-    "lastState": "2023-11-16",
+    "state": "offline",
+    "lastState": "2023-12-08",
     "lastActive": "2023-11-16",
-    "lastUpdate": "2023-11-16"
+    "lastUpdate": "2023-12-08"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa183",
     "volcano_id": "popocatepetl",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=K1rnX5hP-5U",

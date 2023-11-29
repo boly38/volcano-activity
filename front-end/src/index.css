@@ -9,14 +9,6 @@ body {
   background-image: url('assets/images/costa-rica-2580657_1920.jpg');/*https://pixabay.com/fr/photos/costa-rica-volcan-paysage-costa-2580657/*/
 }
 
-.backgroundCredit {
-  color: grey;
-  text-align: right;
-}
-.backgroundCredit a{
-  color: grey;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

@@ -1,35 +1,27 @@
 import React, {Component} from 'react';
-import HistoricLinks from "../core/HistoricLinks";
 
 export default class About extends Component {
     render() {
         const {about} = this.props;
         const {version, startDate} = about?.application;
-        const {"version": apiVersion, volcanoesCount, livesCount} = about?.api;
+        const {"version": apiVersion} = about?.api;
         // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-        return (<>
-            <div className="volcanoSubTitle">About <span className="volcanoTitle">volcano-activity</span></div>
-            <HistoricLinks historic={this.props.historic}/>;
+        return (<div className="entityContainer">
+            <h3>About</h3>
             <div className="aboutApp">
-                App. version : {version}<br/><br/>
-                API version  : {apiVersion}<br/>
-                volcanoes    : {volcanoesCount}<br/>
-                lives        : {livesCount}<br/>
+                App. version : {version} since {startDate}<br/><br/>
+                API version  : {apiVersion}
             </div>
-            <div className="volcanoAbout">
-                <div className="largeScreen">
-                    <div className="volcanicWrapper">
-                        <marquee behavior="alternate"><span className="volcanicText">The earth is in perpetual seismic and volcanic activity</span>
-                        </marquee>
-                    </div>
-                </div>
-                <div className="smallScreen">The earth is in perpetual seismic and volcanic activity<br/></div>
+            <div className="entityAbout">
+                <span className="rise-shake">The earth is in perpetual seismic and volcanic activity</span>
+                <div className="clr"></div>
                 <br/>
                 It is interesting to maintain the list of active webcams 📹 near the volcanoes 🗻 which can sometimes
                 surprise 🔥.<br/>
                 <br/>
-                we may try to do that via collaborative 🤝👥 open github project 🏗️.
+                we may try to do that via collaborative 🤝👥 open github project 🏗️ <a href="https://github.com/boly38/volcano-activity" target="_umami">volcano-activity</a>.<br/><br/>
+                <small>ie. a web designer could bring a lot 😅 </small>
             </div>
-        </>);
+        </div>);
     }
 }

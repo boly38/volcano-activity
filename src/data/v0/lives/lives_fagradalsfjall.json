@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa120",
     "volcano_id": "fagradalsfjall",
     "type": "earthquakes",
     "url": "https://vafri.is/quake/",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa121",
     "volcano_id": "fagradalsfjall",
     "type": "webcam",
     "url": "https://livefromiceland.is/webcams/fagradalsfjall/",
@@ -26,6 +28,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa122",
     "volcano_id": "fagradalsfjall",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=l-5QeLIn1FA",
@@ -39,6 +42,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa123",
     "volcano_id": "fagradalsfjall",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=LykVVU3C6D0",
@@ -52,6 +56,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa124",
     "volcano_id": "fagradalsfjall",
     "type": "youtube",
     "url": "https://livefromiceland.is/webcams/litlihrutur",

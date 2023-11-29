@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa150",
     "volcano_id": "merapi",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=O6gK-l2BjZU",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa151",
     "volcano_id": "merapi",
     "type": "webcam",
     "url": "https://volcanoyt.com/camera/507/merapi-ngandong",
@@ -27,6 +29,7 @@
     "lastUpdate": "2023-12-03"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa152",
     "volcano_id": "merapi",
     "type": "webcam",
     "url": "https://volcanoyt.com/camera/506/merapi-ngerangkah",
@@ -41,6 +44,7 @@
     "lastUpdate": "2023-12-03"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa153",
     "volcano_id": "merapi",
     "type": "webcam",
     "url": "https://volcanoyt.com/camera/505/merapi-bunker-kaliurang",
@@ -55,6 +59,7 @@
     "lastUpdate": "2023-12-03"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa154",
     "volcano_id": "merapi",
     "type": "webcam",
     "url": "https://volcanoyt.com/camera/504/merapi-bpbd-induk",

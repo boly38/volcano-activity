@@ -1,10 +1,29 @@
 import {readdirSync, readFileSync} from 'fs';
 import {join} from 'path';
 
+function expectedEnvVariable(variableName) {
+    const envVarValue = process.env[variableName];
+    if (!isSet(envVarValue)) {
+        throw new Error(`Expected env:${variableName}`);
+    }
+    return envVarValue;
+}
+
+const isString = v => typeof v === 'string';
+const errIncludes = (err, v) => isString(err) && err.includes(v);
+function clone(obj) {
+    return isSet(obj) ? { ...obj } : obj;
+}
+const deepCopy = o => isSet(o) ? JSON.parse(JSON.stringify(o)) : null;
+function sleep(timeMs) {
+    return new Promise(resolve => setTimeout(resolve, timeMs))
+}
 function isSet(variable) {
     return (variable !== undefined && variable !== null);
 }
-
+function isEmpty(variable) {
+    return !isSet(variable) || variable === '';
+}
 function isNotEmpty(variable) {
     return isSet(variable) && variable !== '';
 }
@@ -60,4 +79,4 @@ function readJsonFilesFromDirectory(directoryPath) {
 }
 
 // Export the function to be used in other modules
-export {isSet, isNotEmpty, loadJsonFile, readJsonFilesFromDirectory};
+export {expectedEnvVariable, errIncludes, clone, deepCopy, sleep, isSet, isEmpty, isNotEmpty, loadJsonFile, readJsonFilesFromDirectory};

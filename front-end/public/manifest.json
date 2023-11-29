@@ -3,17 +3,17 @@
   "name": "volcano-activity web site (react-app) that show volcanic/seismic activity. A boly38/volcano-activity github project.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "icons/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logovolcan192.png",
+      "src": "images/logovolcan192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logovolcan.png",
+      "src": "images/logovolcan.png",
       "type": "image/png",
       "sizes": "512x512"
     }

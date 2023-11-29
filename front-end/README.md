@@ -13,7 +13,7 @@ Images tools/services:
 - https://convertio.co/fr/ - online free convert image to ico
 
 Images:
-- ![logovolcan192 logo](./public/logovolcan192.png)  [volcano icon](https://www.flaticon.com/fr/icone-gratuite/volcan_2206570?related_id=2206644&origin=search)
+- ![logovolcan192 logo](public/images/logovolcan192.png)  [volcano icon](https://www.flaticon.com/fr/icone-gratuite/volcan_2206570?related_id=2206644&origin=search)
 - [thumbnail volcano](https://pixabay.com/fr/vectors/le-noir-blanche-volcan-fum%C3%A9e-305380/)
 - [volcano - live camera](https://pixabay.com/fr/photos/la-technologie-la-prise-de-vue-3044797/)
 - [volcano - live camera volcano](https://pixabay.com/fr/photos/volcan-lave-islande-nature-7396466/)

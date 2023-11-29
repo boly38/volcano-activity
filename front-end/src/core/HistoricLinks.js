@@ -1,22 +1,22 @@
 import React, {Component} from "react";
-import ApiV0 from "../service/ApiV0";
+import {isSet, showPage} from "../service/util";
 
 const DEBUG = false;
 export default class HistoricLinks extends Component {
-    goTo(page, volcanoId) {
-        ApiV0.showPage(page, volcanoId)
-    }
-
     historicEntry(index, historic, isLast) {
-        const { page, volcanoId } = historic
-        const title = ApiV0.isSet(volcanoId) ? volcanoId : page;
-        return (<>
-            <button key={index}
-                    onClick={() => this.goTo(page, volcanoId)}
+        const {page, volcanoId, suggestId, liveId} = historic
+        const title = (isSet(volcanoId) && isSet(suggestId))
+            ? `${page} ${volcanoId} - suggest ${suggestId} ${isSet(liveId) && "live"}`
+            : isSet(volcanoId)
+                ? `${page} ${volcanoId} ${isSet(liveId) && "live"}`
+                : page;
+        const label = isSet(volcanoId) ? `${page} ${volcanoId}` : page
+        return (<span key={"histo" + index}>
+            <button onClick={() => showPage(page, volcanoId, suggestId)}
                     className="histoLink"
-                    title={title}>{title}</button>
+                    title={title}>{label}</button>
             {!isLast && (<>&#160;◾&#160;</>)}
-        </>);
+        </span>);
     }
 
     render() {
