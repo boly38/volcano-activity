@@ -1,10 +1,15 @@
 import {readdirSync, readFileSync} from 'fs';
 import {join} from 'path';
 
+function sleep(timeMs) {
+    return new Promise(resolve => setTimeout(resolve, timeMs))
+}
 function isSet(variable) {
     return (variable !== undefined && variable !== null);
 }
-
+function isEmpty(variable) {
+    return !isSet(variable) || variable === '';
+}
 function isNotEmpty(variable) {
     return isSet(variable) && variable !== '';
 }
@@ -60,4 +65,4 @@ function readJsonFilesFromDirectory(directoryPath) {
 }
 
 // Export the function to be used in other modules
-export {isSet, isNotEmpty, loadJsonFile, readJsonFilesFromDirectory};
+export {sleep, isSet, isEmpty, isNotEmpty, loadJsonFile, readJsonFilesFromDirectory};
