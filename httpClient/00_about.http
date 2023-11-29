@@ -1,0 +1,9 @@
+### About
+GET {{url}}/about
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    const about = response.body;
+    client.log(`App ${about.application.name} version ${about.application.version} - api ${about.api.version}`)
+%}

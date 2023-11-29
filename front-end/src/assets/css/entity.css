@@ -1,0 +1,32 @@
+.entitiesList {
+    padding: 20px;
+}
+
+.entityContainer {
+    margin: 10px 60px;
+    padding: 20px;
+    color: var(--textLight) !important;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.entityAbout {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.entityFormDetails {
+    margin: 10px 60px;
+    color: var(--textLight) !important;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 5px;
+    border: 3px solid grey;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.entityModerate {
+    background-color: var(--admincolor);
+    margin: 10px 60px;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+}

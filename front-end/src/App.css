@@ -1,3 +1,12 @@
+/** custom colors **/
+:root {
+    --admincolor: #cc7ae0;
+    --bgform: rgba(255, 255, 255, 0.84);
+    --textDark: #050300;
+    --textLight: #FDFDC9B2;
+}
+
+/** custom fonts **/
 @font-face {
     font-family: 'Celtica-Book';
     src: local('Celtica-Book'), url("assets/fonts/Celtica-Book.ttf") format('truetype');
@@ -10,8 +19,21 @@
     font-display: swap;
 }
 
-.App {
-    text-align: center;
+/**  **/
+
+body {
+    height: max-content !important;
+}
+.clearBoth {
+    clear: both;
+}
+
+.tar {
+    text-align: right;
+}
+
+.tal {
+    text-align: left;
 }
 
 .App-logo {
@@ -49,14 +71,44 @@
     }
 }
 
-#app-main-content {
-    height: 95vh;
+/* menu */
+.container {
+    margin-left: 0 !important;
 }
 
+/* react bootstrap */
+h4 {
+    color: var(--textDark) !important;
+    background-color: var(--bgform) !important;
+    padding: 10px;
+    margin: 0;
+}
+.card {
+    margin: 10px;
+    padding: 10px;
+    color: var(--textDark) !important;
+    background-color: var(--bgform) !important;
+}
+
+/** background **/
+
+.backgroundCredit {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    text-align: right;
+    color: var(--textLight) !important;
+    background-color: rgba(0, 0, 0, .4);
+}
+.backgroundCredit a{
+    color: var(--textLight) !important;
+}
+
+
+/* histo */
 .histoLinks {
     font-family: 'Celtica-Book', cursive;
     float: left;
-    margin-left: 70px;
     padding: 4px;
     font-size: 16px;
     background-color: rgba(255, 160, 22, .2);
@@ -65,14 +117,30 @@
 .histoLink {
     font-family: 'Celtica-Book', cursive;
     font-size: 14px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .4);
+    opacity: 0.9;
+    border: 1px solid #643b3b;
 }
+
+/* About */
+
+.aboutApp {
+    font-size: 0.6em;
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: right;
+}
+
+
+/** */
 
 .volcanoSubTitle {
     font-family: 'Celtica-Book', cursive;
     font-size: 32px;
     color: #d58e07;
     cursor: default;
-    background-color: rgba(0, 0, 0, .5);
 }
 
 .volcanoTitle {
@@ -82,15 +150,38 @@
     cursor: default;
 }
 
-.volcanoAbout {
-    font-family: 'Boston', cursive;
-    font-size: 20px;
-    padding: 40px;
+.volcanoDebug {
+    border: 1px solid grey;
+    background-color: grey;
+    text-align: left;
 }
 
-.listCount {
+.toggleSuggest {
+    float: left;
+    background-color: transparent;
+    color: grey;
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 0.9;
+}
+
+.suggestError {
+    padding-top: 10px;
+}
+
+.listLabel {
+    color: navajowhite;
     font-family: 'Boston', cursive;
-    font-size: 12px;
+    font-size: 14px;
+    background-color: rgb(10, 59, 59, .8);
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.refused {
+    color: red;
 }
 
 .volcanicWrapper {
@@ -123,66 +214,133 @@
     }
 }
 
-.volcanoesList {
-    padding: 40px;
-}
-
-.homeEntry {
+.volcanoEntry {
     color: white;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .6);
     opacity: 0.7;
     border: 1px solid grey;
     float: left;
     padding: 30px;
-    margin: 30px;
+    margin: 15px;
     min-width: 300px;
     max-width: 300px;
     border-radius: 15px 50px 30px;
 }
 
-.homeEntry:hover {
+.volcanoEntry:hover {
     background-color: #d08503;
     cursor: pointer;
 }
 
+.volcanoEntryNew {
+    background-color: #b7af88;
+}
+
+.volcanoEntrySuggest {
+    background-color: rgba(45, 120, 100, .5);
+    opacity: 0.7;
+}
+
+.volcanoIcon {
+    float: left;
+}
+
+.livesAllLists {
+}
+
+.livesAllLists::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .livesList {
     padding: 40px;
+}
+
+.livesEntries {
+    display: block;
+}
+.livesEntries::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .livesEntry {
     color: white;
     background-color: rgba(0, 0, 0, .4);
     opacity: 0.9;
-    border: 1px solid white;
+    border: 1px solid #643b3b;
     float: left;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 30px;
-    min-width: 300px;
+    padding: 10px 15px 5px;
+    margin: 15px;
+    min-width: 350px;
     max-width: 300px;
-    border-radius: 15px 50px 30px;
+    border-radius: 10px 35px 10px 35px;
 }
 
 .livesEntry a {
     color: navajowhite;
+    cursor: alias;
+    text-decoration: none !important;
 }
 
 .livesEntry:hover {
     background-color: #d08503;
+}
+
+.liveNew {
+    cursor: pointer;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.editIcon {
+    display: inline;
+    padding-bottom: 5px;
     cursor: pointer;
 }
 
-.liveLocation {
+.thumbnailLocation {
     font-size: 0.8em;
     font-style: italic;
+    text-decoration: none !important;
 }
 
-.aboutApp {
-    font-size: 0.6em;
-    float: right;
-    padding-top: 10px;
-    padding-right: 15px;
-    text-align: right;
+.btn-secondary {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/** tremble - credit https://unused-css.com/blog/css-shake-animation/ **/
+span.rise-shake {
+    padding: 1.5rem;
+    display: inline-block;
+    animation: jump-shaking 0.83s infinite;
+}
+
+@keyframes jump-shaking {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateY(-1px)
+    }
+    35% {
+        transform: translateY(-1px) rotate(1deg)
+    }
+    55% {
+        transform: translateY(-1px) rotate(-1deg)
+    }
+    65% {
+        transform: translateY(-1px) rotate(1deg)
+    }
+    75% {
+        transform: translateY(-1px) rotate(-1deg)
+    }
+    100% {
+        transform: translateY(0) rotate(0)
+    }
 }

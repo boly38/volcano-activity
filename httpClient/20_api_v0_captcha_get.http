@@ -1,0 +1,7 @@
+### V0 GET suggests
+GET {{url}}/api/v0/captcha
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+%}

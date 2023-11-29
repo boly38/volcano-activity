@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa160",
     "volcano_id": "piton",
     "type": "webcam",
     "url": "https://pv.viewsurf.com/1984/Piton-de-la-fournaise-video?i=NzI4NDp1bmRlZmluZWQ",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-16"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa161",
     "volcano_id": "piton",
     "type": "webcam",
     "url": "https://fournaise.info/webcams-piton-de-la-fournaise-reunion/",

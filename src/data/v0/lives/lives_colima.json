@@ -1,5 +1,6 @@
 [
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa100",
     "volcano_id": "colima",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=Z-pozJXA1dc",
@@ -13,6 +14,7 @@
     "lastUpdate": "2023-11-27"
   },
   {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaa101",
     "volcano_id": "colima",
     "type": "youtube",
     "url": "https://www.youtube.com/watch?v=rEEsgLfa4jw",

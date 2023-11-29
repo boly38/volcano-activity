@@ -1,0 +1,45 @@
+### V0 POST suggests live
+POST {{url}}/api/v0/suggests/live
+Content-Type: application/json
+
+{
+  "live": { "id": "http_live", "volcano_id":"http_volcano", "name": "this is just a live"}
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    let suggestId = response.body;
+    client.log(`suggest '${suggestId}' added`)
+    client.global.set("suggest-id", suggestId);
+%}
+
+### V0 POST suggests live accept
+POST {{url}}/api/v0/suggests/live/accept
+Content-Type: application/json
+
+{
+  "suggestId": "{{suggest-id}}"
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    client.global.set("suggest-id", response.body.id);
+%}
+
+### V0 POST suggests live comment
+POST {{url}}/api/v0/suggests/live/comment
+Content-Type: application/json
+
+{
+  "suggestId": "{{suggest-id}}",
+  "comment": "this is SUPER not possible, sorry"
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    let suggestId = response.body;
+    client.global.set("suggest-id", suggestId);
+%}

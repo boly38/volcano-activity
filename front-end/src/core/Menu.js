@@ -1,41 +1,44 @@
 import React, {Component} from 'react';
-import {elastic as BurgerMenu} from 'react-burger-menu'; // https://github.com/negomi/react-burger-menu
-
-import './react-burger.css';
-import ApiV0 from '../service/ApiV0.js';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import {home, showPage} from "../service/util";
 
 export default class Menu extends Component {
     constructor(props) {
         super(props);
-        this.state = {menuOpen: false};
+        this.state = {
+            token: null
+        };
+    }
+    _retainToken(event) {
+        const {token} = event.detail;
+        console.log(`retain token`);
+        this.setState({token});
+    }
+    componentDidMount() {
+        document.body.addEventListener("retainToken", this._retainToken.bind(this));
     }
 
-    handleStateChange (state) {
-        this.setState({menuOpen: state.isOpen})
-    }
-    closeMenu () {
-        this.setState({menuOpen: false})
-    }
-    toggleMenu () {
-        this.setState(state => ({menuOpen: !state.menuOpen}))
-    }
-    goToPage(page) {
-        this.closeMenu();
-        ApiV0.showPage(page)
+    componentWillUnmount() {
+        document.body.removeEventListener("retainToken", this._retainToken.bind(this));
     }
 
     render() {
+        const {token} = this.state;
         // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-        return (<>
-            <BurgerMenu
-                pageWrapId="app-main-content"
-                outerContainerId="app-main-container"
-                isOpen={this.state.menuOpen}
-                onStateChange={(state) => this.handleStateChange(state)}
-                width={220}>
-                <button id="home" className="menu-item" onClick={() => this.goToPage("home")}>Home</button>
-                <button id="about" className="menu-item" onClick={() => this.goToPage("about")}>About</button>
-            </BurgerMenu>
-        </>);
+        return (
+            <Navbar bg="dark" data-bs-theme="dark">
+                <Container>
+                    <Navbar.Brand href="#" onClick={() => home()}>Home</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Nav.Link href="#" onClick={() => showPage('about')}>About</Nav.Link>
+                        { token && (<Nav.Link href="#" onClick={() => showPage('moderate')}>Moderate</Nav.Link>) }
+                        { token && (<Nav.Link href="https://analytics.eu.umami.is/dashboard">Umami cloud</Nav.Link>) }
+                    </Nav>
+                    <div className="volcanoSubTitle">Bienvenue sur <span className="volcanoTitle">volcano-activity</span></div>
+                </Container>
+            </Navbar>
+        );
     }
 }

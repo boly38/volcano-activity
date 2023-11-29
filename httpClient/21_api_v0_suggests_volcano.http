@@ -1,0 +1,49 @@
+### V0 POST suggests volcano
+POST {{url}}/api/v0/suggests/volcano
+Content-Type: application/json
+
+{
+  "captcha": "{{captcha}}",
+  "volcano": { "volcano_id": "http_volcano", "name": "this is just a test"}
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    let suggestId = response.body;
+    client.log(`suggest '${suggestId}' added`)
+    client.global.set("suggest-id", suggestId);
+%}
+
+### V0 POST suggests volcano accept
+POST {{url}}/api/v0/suggests/volcano/accept
+Content-Type: application/json
+x-token: {{moderatorToken}}
+
+{
+  "suggestId": "{{suggest-id}}"
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    let volcanoId = response.body;
+    client.global.set("volcano-id", volcanoId);
+%}
+
+### V0 POST suggests volcano comment
+POST {{url}}/api/v0/suggests/volcano/comment
+Content-Type: application/json
+x-token: {{moderatorToken}}
+
+{
+  "suggestId": "{{suggest-id}}",
+  "comment": "this is not possible, sorry"
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    let suggestId = response.body;
+    client.global.set("suggest-id", suggestId);
+%}

@@ -1,23 +1,21 @@
 import React, {Component} from 'react';
-import ApiV0 from "../service/ApiV0";
+import {isSet, showPage} from "../service/util";
 
 export default class ThumbnailVolcano extends Component {
-
-    goToVolcano(id) {
-        ApiV0.showPage('volcano',id)
-    }
-
     render() {
-        const {volcano} = this.props;
-        if (!ApiV0.isSet(volcano)) {
+        const {volcano, suggestId} = this.props;
+        if (!isSet(volcano)) {
             return null;
         }
-        const {id, name, country, region } = volcano;
+        const volcanoStyle = "volcanoEntry" + (suggestId ? " volcanoEntrySuggest" : "");
+        const volcanoImage = (suggestId ? "/images/volcano_suggest.webp" : "/images/volcano.webp");
+        const {id, name, country, region} = volcano;
         const livesCount = volcano?.lives?.length;
-        return (<div className="homeEntry" onClick={() => this.goToVolcano(id)}>
-            <img src="/volcano.webp" width="250" alt="volcano view"/><br/>
+        const onClick = () => suggestId ? showPage('volcano', volcano.volcano_id, suggestId) : showPage('volcano', id);
+        return (<div className={volcanoStyle} onClick={onClick}>
+            <div className="volcanoIcon"><img src={volcanoImage} width="100" alt="volcano view"/></div>
             {name} {livesCount && (<><sup>{livesCount}</sup></>)}<br/>
-            {country} ({region})
+            {country} {region && (<>({region})</>)}
         </div>);
     }
 }

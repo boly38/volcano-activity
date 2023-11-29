@@ -1,0 +1,9 @@
+### V0 volcanoes
+GET {{url}}/api/v0/volcanoes
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    const volcanoes = response.body;
+    client.log(`${volcanoes.length} volcanoes`)
+%}
