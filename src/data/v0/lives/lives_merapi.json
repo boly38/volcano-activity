@@ -11,5 +11,61 @@
     "lastState": "2023-11-16",
     "lastActive": "",
     "lastUpdate": "2023-11-16"
+  },
+  {
+    "volcano_id": "merapi",
+    "type": "webcam",
+    "url": "https://volcanoyt.com/camera/507/merapi-ngandong",
+    "embedUrl": "https://volcanoyt.com/media/timelapse/507/tumb.webp?update=TIMESTAMPSEC",
+    "name": "Merapi (Ngandong) - BPBD Sleman",
+    "location": "Ngandong, Indonésie",
+    "owner": "BPBD Sleman via volcanoyt.com",
+    "ownerURl": "https://volcanoyt.com/camera/507/merapi-ngandong",
+    "state": "active",
+    "lastState": "2023-12-03",
+    "lastActive": "",
+    "lastUpdate": "2023-12-03"
+  },
+  {
+    "volcano_id": "merapi",
+    "type": "webcam",
+    "url": "https://volcanoyt.com/camera/506/merapi-ngerangkah",
+    "embedUrl": "https://volcanoyt.com/media/timelapse/506/tumb.webp?update=TIMESTAMPSEC",
+    "name": "Merapi (Ngerangkah) - BPBD Sleman",
+    "location": "Ngerangkah, Indonésie",
+    "owner": "BPBD Sleman via volcanoyt.com",
+    "ownerURl": "https://volcanoyt.com/camera/506/merapi-ngerangkah",
+    "state": "active",
+    "lastState": "2023-12-03",
+    "lastActive": "",
+    "lastUpdate": "2023-12-03"
+  },
+  {
+    "volcano_id": "merapi",
+    "type": "webcam",
+    "url": "https://volcanoyt.com/camera/505/merapi-bunker-kaliurang",
+    "embedUrl": "https://volcanoyt.com/media/timelapse/505/tumb.webp?update=TIMESTAMPSEC",
+    "name": "Merapi (Bunker Kaliurang) - BPBD Sleman",
+    "location": "Bunker Kaliurang, Indonésie",
+    "owner": "BPBD Sleman via volcanoyt.com",
+    "ownerURl": "https://volcanoyt.com/camera/505/merapi-bunker-kaliurangh",
+    "state": "active",
+    "lastState": "2023-12-03",
+    "lastActive": "",
+    "lastUpdate": "2023-12-03"
+  },
+  {
+    "volcano_id": "merapi",
+    "type": "webcam",
+    "url": "https://volcanoyt.com/camera/504/merapi-bpbd-induk",
+    "embedUrl": "https://volcanoyt.com/media/timelapse/504/tumb.webp?update=TIMESTAMPSEC",
+    "name": "Merapi (BPBD Induk) - BPBD Sleman",
+    "location": "BPBD Induk, Indonésie",
+    "owner": "BPBD Sleman via volcanoyt.com",
+    "ownerURl": "https://volcanoyt.com/camera/504/merapi-bpbd-induk",
+    "state": "active",
+    "lastState": "2023-12-03",
+    "lastActive": "",
+    "lastUpdate": "2023-12-03"
   }
 ]
