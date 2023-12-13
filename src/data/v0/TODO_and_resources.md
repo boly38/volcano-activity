@@ -1,6 +1,6 @@
 # Volcano TODO List
 
-[< back](../../../../README.md)
+[< back](../../../README.md)
 
 ### live/active webcams not found
 * [Eyjafjallajökull](https://fr.wikipedia.org/wiki/Eyjafjallaj%C3%B6kull) - Iceland (Suðurland) - *LIVE TO FIND*
