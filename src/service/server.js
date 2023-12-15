@@ -11,6 +11,7 @@ const VOL_SESSION_SECRET_KEY = process.env.VOL_SESSION_SECRET_KEY;
 const VOL_SESSION_DURATION_MS = 3*60000;
 export default class Server {
     constructor() {
+        // TODO : improve using node-dependency-injection
         this.app = express()
         this.v0Api = new V0ApiController();
         this.log = (new Logger()).getLogger();
