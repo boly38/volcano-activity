@@ -15,7 +15,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_ACTIONS_TOKEN }}
+          token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
 
       - name: setup NodeJS ${{ matrix.node-version }}
         uses: actions/setup-node@v2
