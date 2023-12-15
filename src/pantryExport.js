@@ -69,3 +69,4 @@ async function pantryExport() {
 }
 
 await pantryExport();
+// TODO : QA with githubactions
