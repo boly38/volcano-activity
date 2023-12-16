@@ -1,0 +1,14 @@
+### About
+POST {{url}}/api/v0/auth/moderator
+Content-Type: application/json
+X-TOKEN: {{moderatorToken}}
+
+{
+  "token": "{{moderatorToken}}"
+}
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    client.global.set("moderatorToken", moderatorToken);
+%}

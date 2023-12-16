@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+
+# NodeJs
+node_modules/
+
+# secrets
+.env
+*.private.env.*

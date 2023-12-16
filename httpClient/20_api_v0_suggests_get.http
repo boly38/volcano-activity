@@ -1,0 +1,19 @@
+### V0 GET suggests
+GET {{url}}/api/v0/suggests
+
+> {%
+    import {verifyReturnCode} from "./common.js";
+    verifyReturnCode(client, response, 200);
+    const suggests = response.body;
+    const suggestsVolcanoes = suggests ? suggests["suggestVolcanoes"] : null;
+    const suggestsLives = suggests ? suggests["suggestsLives"] : null;
+    if (suggestsVolcanoes) {
+        client.log(`${Object.keys(suggestsVolcanoes).length} suggested volcanoes`)
+    }
+    if (suggestsLives) {
+        client.log(`${Object.keys(suggestsLives).length} suggested lives`)
+    }
+    if (!suggestsVolcanoes && !suggestsLives) {
+        client.log(`no suggests`)
+    }
+%}
