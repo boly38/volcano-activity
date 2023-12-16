@@ -4,7 +4,7 @@
 # repository secrets: https://github.com/boly38/volcano-activity/settings/secrets/actions
 # - VOLCANO_GITHUB_TOKEN : write access for this repository
 
-name: VOLCANO_CI
+name: action main
 
 # Controls when the action will run. 
 on:

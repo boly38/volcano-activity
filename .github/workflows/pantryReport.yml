@@ -2,10 +2,12 @@
 #
 # requirements
 # repository secrets: https://github.com/boly38/volcano-activity/settings/secrets/actions
-# - VOLCANO_GITHUB_TOKEN : write access for this repository
+# - VOLCANO_GITHUB_TOKEN : write access for this repository and write access for pull request
 # - VOL_PANTRY_ID : pantry bucket secret id
+# - VOL_LOGTAIL_SOURCE_ID : logger source id
+# - VOL_LOGTAIL_SOURCE_TOKEN : logger source token
 
-name: VOLCANO_PANTRY_REPORT
+name: action pantry report
 
 # Controls when the action will run.
 on:
