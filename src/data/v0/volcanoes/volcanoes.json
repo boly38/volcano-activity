@@ -52,5 +52,13 @@
     "name": "Popocatépetl",
     "country": "Mexico",
     "region": "Puebla"
+  },
+  {
+    "name": "Sakurajima (桜島, Sakura-jima)",
+    "region": "Kyūshū",
+    "country": "Japon",
+    "id": "sakurajima",
+    "updated": "2023-12-16T13:27:15.018Z",
+    "lastModeration": "2023-12-16T13:27:47.624Z"
   }
 ]
