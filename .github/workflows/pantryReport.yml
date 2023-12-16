@@ -48,3 +48,6 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
+          title: "pantryReport"
+          body: "report changes from pantry store via [pantryReport](.github/workflows/pantryReport.yml) github action"
+          commit-message: "pantryReport"
