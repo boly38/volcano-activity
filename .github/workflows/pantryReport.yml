@@ -49,5 +49,5 @@ jobs:
         with:
           token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
           title: "pantryReport"
-          body: "report changes from pantry store via [pantryReport](.github/workflows/pantryReport.yml) github action"
+          body: "report changes from pantry store via [pantryReport](https://github.com/boly38/volcano-activity/blob/main/.github/workflows/pantryReport.yml) github action"
           commit-message: "pantryReport"
