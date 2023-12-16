@@ -1,0 +1,64 @@
+[
+  {
+    "id": "colima",
+    "name": "Colima",
+    "country": "Mexique",
+    "region": "Colima, Jalisco"
+  },
+  {
+    "id": "etna",
+    "name": "Etna",
+    "country": "Italy",
+    "region": "Sicile"
+  },
+  {
+    "id": "fagradalsfjall",
+    "name": "Fagradalsfjall",
+    "country": "Iceland",
+    "region": "Suðurnes"
+  },
+  {
+    "id": "fuji",
+    "name": "Fuji",
+    "country": "Japan",
+    "region": "Chūbu"
+  },
+  {
+    "id": "kilauea",
+    "name": "Kīlauea",
+    "country": "USA",
+    "region": "Hawaï Island"
+  },
+  {
+    "id": "merapi",
+    "name": "Mérapi",
+    "country": "Indonésie",
+    "region": "Yogyakarta"
+  },
+  {
+    "id": "piton",
+    "name": "Piton de la Fournaise",
+    "country": "France",
+    "region": "La Réunion"
+  },
+  {
+    "id": "poas",
+    "name": "Poás",
+    "country": "Costa Rica",
+    "region": "Alajuela"
+  },
+  {
+    "id": "popocatepetl",
+    "name": "Popocatépetl",
+    "country": "Mexico",
+    "region": "Puebla"
+  },
+  {
+    "name": "Sakurajima (桜島, Sakura-jima)",
+    "region": "Kyūshū",
+    "country": "Japon",
+    "id": "sakurajima",
+    "updated": "2023-12-16T13:27:15.018Z",
+    "lastModeration": "2023-12-16T13:27:47.624Z"
+  }
+]
