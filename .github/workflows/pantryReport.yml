@@ -39,8 +39,6 @@ jobs:
 
       - name: Pantry export
         run: npm run pantryExport
-        with:
-          token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
         env:
           VOL_PANTRY_ID: ${{ secrets.VOL_PANTRY_ID }}
           VOL_LOGTAIL_SOURCE_ID: ${{ secrets.VOL_LOGTAIL_SOURCE_ID }}
@@ -48,3 +46,5 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.VOLCANO_GITHUB_TOKEN }}
