@@ -28,7 +28,7 @@ export default class Menu extends Component {
         const {token} = this.state;
         // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
         return (
-            <Navbar bg="dark" data-bs-theme="dark">
+            <Navbar bg="dark" data-bs-theme="dark" className="volcanoMenu">
                 <Container>
                     <Navbar.Brand href="#" onClick={() => home()}>Home</Navbar.Brand>
                     <Nav className="me-auto">
@@ -36,7 +36,7 @@ export default class Menu extends Component {
                         { token && (<Nav.Link href="#" onClick={() => showPage('moderate')}>Moderate</Nav.Link>) }
                         { token && (<Nav.Link href="https://analytics.eu.umami.is/dashboard">Umami cloud</Nav.Link>) }
                     </Nav>
-                    <div className="volcanoSubTitle">Bienvenue sur <span className="volcanoTitle">volcano-activity</span></div>
+                    <div className="volcanoTitle">Volcano activity</div>
                 </Container>
             </Navbar>
         );

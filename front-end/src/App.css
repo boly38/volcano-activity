@@ -24,6 +24,7 @@
 body {
     height: max-content !important;
 }
+
 .clearBoth {
     clear: both;
 }
@@ -83,6 +84,7 @@ h4 {
     padding: 10px;
     margin: 0;
 }
+
 .card {
     margin: 10px;
     padding: 10px;
@@ -100,10 +102,15 @@ h4 {
     color: var(--textLight) !important;
     background-color: rgba(0, 0, 0, .4);
 }
-.backgroundCredit a{
+
+.backgroundCredit a {
     color: var(--textLight) !important;
 }
 
+/* menu */
+.volcanoMenu {
+    --bs-bg-opacity: .6 !important;
+}
 
 /* histo */
 .histoLinks {
@@ -261,6 +268,7 @@ h4 {
 .livesEntries {
     display: block;
 }
+
 .livesEntries::after {
     content: "";
     display: table;
